@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .username1{
+         width:40%;
+         display: block;
+          margin-left:auto;
+          margin-right:auto;
+        }
+        .username{
+         width:40%;
+         display: block;
+          margin-left:auto;
+          margin-right:auto;
+          margin-bottom:2.5%;
+          margin-top:2.5%;
+        }
+        #user1{
+        display: block;
+         margin-left:auto;
+          margin-right:auto;
+          margin-bottom:2%;
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <h2 class="username1">Fetch User Data from GitHub</h2>
+  <input type="text" placeholder="Enter the user name" class="username" id="user">
+    <button type="button" class="btn btn-outline-success" id="user1" onclick="user()">Search</button>
+    <div class="work">
+        <table class="table" id="tabel1">
+      <tr>
+          <thead>
+        <th>USERNAME</th>
+        <th>USERPIC</th>
+          <th>REPOS</th>
+          <th>Followers</th>
+        </thead>
+      </tr>
+
+</div>
+</div>
+<script src="git.js"></script>
+
+</body>
+</html>
