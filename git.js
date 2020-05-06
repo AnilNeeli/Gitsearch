@@ -44,7 +44,7 @@ fetch(data.followers_url)
                   followers.forEach((el)=>{
                       flw += `<a href=https://github.com/${el} target="_blank">${el}</a> </br>`;
                   })
-                  cel4.innerHTML=flwList;
+                  cel4.innerHTML=flw;
             }
 
    })
